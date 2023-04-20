@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    Padding:0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-gray-50: #fbfafc;
+    --color-gray-100: #f1f5f9;
+    --color-gray-200: #e2e8fb;
+    --color-gray-300: #cbd5e1;
+    --color-gray-400: #94a3b8;
+    --color-gray-500: #64748b;
+    --color-gray-600: #475569;
+    --color-gray-700: #334155;
+    --color-gray-800: #1e293b;
+    --color-gray-900: #0f172a;
+    --color-green-100: #84d361;
+    --color-green-200: #1b873f;
+    --color-purple-100: #B100F0;
+    --color-purple-200: #7740F5;
+    --color-white: #ffffff;
+    --color-orange: #F03F1F;
+}
+
+html, body {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: var(--color-gray-50);
+}
+
+section {
+    width: 320px;
+    margin: auto;
+}
+
+section .inner {
+    padding: 24px;
+    background-color: var(--color-white);
+
+    border: 1px solid --color-gray-200;
+    border-radius: 10px;
+}
+
+.inner p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-purple-200);
+}
+
+ .title-price {
+    margin-top: 8px;
+    display: flex;
+ }
+
